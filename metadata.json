@@ -1,0 +1,7 @@
+{
+  "name": "2025 Cottage Food Legal Hub",
+  "description": "Navigate the 2025 cottage food legislative shifts with ease. Interactive state database, labeling compliance matrix, and privacy protocols for home-based food businesses.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
