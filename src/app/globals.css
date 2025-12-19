@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-coral-50: #fff5f2;
+  --color-coral-100: #ffeae5;
+  --color-coral-200: #ffd1c9;
+  --color-coral-300: #ffa699;
+  --color-coral-400: #ff705c;
+  --color-coral-50: #ff4d33;
+  --color-coral-600: #ed361c;
+  --color-coral-700: #c72a14;
+  --color-coral-800: #a42614;
+  --color-coral-900: #882518;
+
+  --color-primary: #ff4d33;
+  --color-primary-foreground: #fff;
+
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 2.5rem;
+
+  --shadow-3xl: 0 35px 60px -15px rgba(0, 0, 0, 0.3);
+
+  --animate-bounce-slow: bounce 3s linear infinite;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #020617;
+  --primary: #ff4d33;
+  --radius: 1rem;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-brand-gradient {
+  background: radial-gradient(circle at 0% 0%, rgba(255, 127, 80, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 100% 100%, rgba(59, 130, 246, 0.05) 0%, transparent 50%),
+    #fff;
+}
